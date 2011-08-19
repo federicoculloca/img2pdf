@@ -1,0 +1,18 @@
+A little script to convert a directory of numbered images to a pdf.
+
+Files need to be named 1.xxx, 2.xxx, 3.xxx ... 123.xxx, without leading zeroes.
+The script will batch rename files, so expect them to change.
+
+At the moment there needs to be no leading zeroes on file names.
+
+Then it converts all files to pdf and join them inside a unique file.
+
+Usage:
+img2pdf dir file_ext out_file
+
+where dir is the directory that contains the images, file_ext is the extension
+of those files and out_file is the name of the output pdf file. Notice that the
+output file will be created inside the dir directory (unless you provide a path
+relative to that directory or an absolute path).
+
+All parameters are mandatory.
